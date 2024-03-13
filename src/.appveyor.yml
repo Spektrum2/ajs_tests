@@ -7,7 +7,7 @@ cache: node_modules # кеширование
 install:
   - npm install # команда установки зависимостей
 build: off
-build_script:
+test_script:
   npm run limit && npm test # скрипт сборки
 #environment:
 #  nodejs_version: "18"
