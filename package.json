@@ -7,7 +7,8 @@
     "lint": "eslint .",
     "lint_fix": "eslint . --fix",
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.11",
     "jest": "^29.7.0",
     "jest-babel": "^1.0.1"
   },
